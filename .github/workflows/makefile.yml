@@ -1,3 +1,8 @@
+- name: Set scripts executable
+  run: |
+   cd kernel # 或者您内核源代码的根目录
+   chmod +x scripts/*.sh
+   chmod +x scripts/clang-android.sh
 name: Build Kernel
 on:
   workflow_dispatch:
