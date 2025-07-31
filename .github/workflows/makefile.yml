@@ -20,7 +20,7 @@ jobs:
           kernel-branch: main
           config: vendor/holi-qgki_defconfig
           arch: arm64
-          aosp-gcc: true
+          aosp-gcc: false
           aosp-clang: true
           ksu: true
           ksu-version: main
